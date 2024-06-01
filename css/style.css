@@ -1,0 +1,44 @@
+.text-left{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.text-left h3{
+    font-size:1.3rem;
+    font-weight: 400;
+}
+.float-left{
+    color:#4E41C2;
+}
+.img-fluid{
+    position: relative;
+    object-fit: cover;
+    display: block;
+}
+.img-fluid:hover{
+            background-color: linear-gradient(to top, #4E41C2, #7F56D9); /* Customize the gradient as needed */
+          color:#7F56D9
+}
+.count{
+    color: white;
+  background-image: url("./images/home/rect.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+.count p{
+    font-size: 3rem;
+}
+.count h2{
+    font-size:2.5rem;
+    font-family: "Georama", sans-serif;
+}
+.mb-5{
+    font-size:1.1rem !important;
+    font-weight:400;
+    color:#FFCDEE;
+}
+.container-1{
+    font-size:1.5rem;
+    text-align:left;
+    margin-bottom:2rem;
+}
