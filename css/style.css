@@ -117,6 +117,7 @@
 .contact{
     padding-top: 0px;
     padding-bottom: 0rem;
+    margin-bottom: 0rem;
     text-align: left;
     background-image: url("./../images/home/businessmen.png");
     background-size: cover; 
