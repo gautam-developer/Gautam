@@ -14,9 +14,26 @@ body, html {
 .contact-us-btn {
     border-radius: 20px;
 }
+
 @media (max-width: 500px) {
     .navbar-brand img {
         width: 100px;
+    }
+}
+@media (max-width:800px) {
+    .mob-con{
+        display: flex;
+    }
+    .desk-con{
+        display: none;
+    }
+}
+@media (min-width:801px) {
+    .desk-con{
+        display: flex;
+    }
+    .mob-con{
+        display: none;
     }
 }
 .btn{
