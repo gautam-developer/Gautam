@@ -8,95 +8,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            font-family: "Poppins", sans-serif;
-            text-align: center;
-        }
-        .navbar-nav .nav-link {
-            margin-right: 20px;
-        }
-        .navbar-brand img {
-            max-height: 40px;
-        }
-        .contact-us-btn {
-            background-color: #7a36dc;
-            color: white;
-            border-radius: 20px;
-        }
-        .contact-us-btn:hover {
-            color: white;
-            background-color: #5a24b0;
-        }
-        @media (max-width: 500px) {
-            .navbar-brand img {
-                width: 100px;
-            }
-        }
-        section{
-            padding-top:3rem;
-            margin-bottom:4rem;
-        }
-        .grad{
-            background-image: linear-gradient(to right, #3509B5 , #A100EC);
-        }
-        .section-grad{
-            background: linear-gradient(to top left, #fff 0%, #fff 50%, #F3F1FF 50%, #F3F1FF 100%);
-        }
-        /* GLOBAL DESIGN ABOVE */
-        .about-us-p{
-            font-family: 'Poppins';font-size: 22px;
-            font-size:17px;
-            line-height: 33px;
-        }
-        .count{
-            color: white;
-            background-image: url("./images/home/rect.jpg");
-        }
-        .service-grad{
-            background-image: linear-gradient(to bottom, #7F56D9 0%, #6943D7 100%,transparent);
-            background-position: center;
-            background-size: cover;
-        }
-        .services-1{
-            background-image: url("./images/home/service-1.jpg");
-            width:237px;
-            background-repeat: no-repeat;
-            height:349px;
-            color: white;
-        }
-        .services-2{
-            background-image: url("./images/home/service-2.jpg");
-            background-repeat: no-repeat;
-            width:237px;
-            height:349px;
-            color: white;
-        }
-        .services-3{
-            background-image: url("./images/home/service-3.jpg");
-            width:237px;
-            height:349px;
-            background-repeat: no-repeat;
-            color: white;
-        }
-        .services-4{
-            background-image: url("./images/home/service-4.jpg");
-            width:237px;
-            background-repeat: no-repeat;
-            height:349px;
-            color: white;
-        }
-        .service-card{
-            box-shadow: 0px 67.11px 109px 0px #0000000D;
-            border: 1px solid #F3F1FF;
-            border-radius: 10px;
-            padding: 32px;
-            background-color: #fff;
-        }
+
     </style>
 </head>
 <body>
@@ -164,11 +79,11 @@
                 </div>
         </div>
     </div>
-</section>
+    </section>
 
     <section>
         <div class="container">
-            <div class="row justify-content-around">
+            <div class="d-lg-flex d-md-flex justify-content-around">
                     <img src="./images/company/google.svg" width="80px" height="27px" alt="Google">
                     <img src="./images/company/airbnb.svg" width="80px" height="27px" alt="Airbnb">
                     <img src="./images/company/facebook.svg" width="80px" height="27px" alt="Facebook">
@@ -180,42 +95,28 @@
 
     <section class="about-us">
         <div class="container">
-            <div class="row">
-                <h2 class="text-left mb-4">About US</h2>
-                <div class="about-us d-lg-flex">
-                    <div class="col-lg-6 col-md-12">
-                        
-                        <img loading="lazy" class="img-fluid" src="./images/home/about-us.jpg" width="480px" height="496px" alt="About Us">
-                        <!-- <img
-                            srcset="./images/home/about-us.jpg 450w"
-                            sizes="(max-width: 450px) 300px,
-                                    300px"
-                            src="./images/home/about-us.jpg"
-                            alt="About Us" /> -->
+                <h2 class="text-lg-left center mb-4">About US</h2>
+                <div class="d-lg-flex">
+                    <div class="col-lg-5 col-md-12 p-0 mb-5 img-grad rounded">
+                        <img loading="lazy" class="img-fluid rounded" src="./images/home/about-us.jpg" width="480px" height="496px" alt="About Us">
                     </div>
-                    <div class="text-left mx-4">
-                        <h3 style="color: #4E41C2;">Innovative & Unwavering</h3>
+                    <div class="text-lg-left col-lg-7 col-md-12 mx-lg-4">
+                        <h3 class="cust-color mb-3">Innovative & Unwavering</h3>
                         <p class="about-us-p">
-                            
                         Gimply dummy text of the printing and typesetting
                         industry. Lorem Ipsum has been the industry’s standard
                         dummy text ever since the 1500s. when an unknown printer
                         took a galley of type and scrambled it to make a type
-                        specimen book. and typesetting industry.
-
-                    </P>
-                    
-                    <P style= "margin: 4rem 0 2rem 0;">
-                    When an unknown printer took a galley of type and
+                        specimen book. and typesetting industry.<br><br>
+                            When an unknown printer took a galley of type and
                         scrambled it to been the industry’s standard dummy text
                         ever since the 1500s.
                     </p>
-                        <div>
-                            <a class="btn contact-us-btn text-white px-4 grad" href="#">Learn More</a>
+                        <div class="my-5">
+                            <a class="btn rounded text-white px-4 grad" href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
     
@@ -225,44 +126,44 @@
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="service-card">
-                        <span class="d-flex mb-3"><img class="mr-3" src='./images/home/icon-1.svg' alt="Software Development"><h4 class="text-left"> Software Development</h4></span>
+                        <span class="d-flex mb-3 align-items-center"><img class="mr-3" src='./images/home/icon-1.svg' alt="Software Development"><h4 class="text-left"> Software Development</h4></span>
                         <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a class="float-left" href="#">Learn More &gt;</a>
+                        <a class="float-left cust-color" href="#">Learn More &gt;</a>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="service-card">
-                        <span class="d-flex mb-3"><img class="mr-3" src='./images/home/icon-2.svg' alt="Infrastructure Managed Services"><h4 class="text-left"> Infrastructure Managed Services</h4></span>
+                        <span class="d-flex mb-3 align-items-center"><img class="mr-3" src='./images/home/icon-2.svg' alt="Infrastructure Managed Services"><h4 class="text-left"> Infrastructure Managed Services</h4></span>
                         <p class="text-left">Lorem ipsum dolor sit amet, adipiscing elit. Mattis et sed</p>
-                        <a class="float-left" href="#">Learn More &gt;</a></span>
+                        <a class="float-left cust-color" href="#">Learn More &gt;</a></span>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="service-card">
-                        <span class="d-flex mb-3"><img class="mr-3" src='./images/home/icon-3.svg' alt="ERP Services"><h4 class="text-left"> ERP Services</h4></span>
+                        <span class="d-flex mb-3 align-items-center"><img class="mr-3" src='./images/home/icon-3.svg' alt="ERP Services"><h4 class="text-left"> ERP Services</h4></span>
                         <p class="text-left">Lorem ipsum dolor sit amet, adipiscing elit. Mattis et sed</p>
-                        <a class="float-left" href="#">Learn More &gt;</a>
+                        <a class="float-left cust-color" href="#">Learn More &gt;</a>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="service-card">
-                        <span class="d-flex mb-3"><img class="mr-3" src='./images/home/icon-1.svg' alt="Testing Services"> <h4 class="text-left">Testing Services </h4></span>
+                        <span class="d-flex mb-3 align-items-center"><img class="mr-3" src='./images/home/icon-1.svg' alt="Testing Services"> <h4 class="text-left">Testing Services </h4></span>
                         <p class="text-left" >Lorem ipsum dolor sit amet, adipiscing elit. Mattis et sed</p>
-                        <a class="float-left" href="#">Learn More &gt;</a>
+                        <a class="float-left cust-color" href="#">Learn More &gt;</a>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="service-card">
-                        <span class="d-flex mb-3"><img class="mr-3" src='./images/home/icon-2.svg' alt="TAG Services"><h4 class="text-left">TAG Services</h4></span>
+                        <span class="d-flex mb-3 align-items-center"><img class="mr-3" src='./images/home/icon-2.svg' alt="TAG Services"><h4 class="text-left">TAG Services</h4></span>
                         <p class="text-left" >Lorem ipsum dolor sit amet, adipiscing elit. Mattis et sed</p>
-                        <a class="float-left" href="#">Learn More &gt;</a>
+                        <a class="float-left cust-color" href="#">Learn More &gt;</a>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="service-card">
-                        <span class="d-flex mb-3"><img class="mr-3" src='./images/home/icon-3.svg' alt="Academy"><h4 class="text-left"> Academy</h4></span>
+                        <span class="d-flex mb-3 align-items-center"><img class="mr-3" src='./images/home/icon-3.svg' alt="Academy"><h4 class="text-left"> Academy</h4></span>
                         <p class="text-left" >Lorem ipsum dolor sit amet, adipiscing elit. Mattis et sed</p>
-                        <a class="float-left" href="#">Learn More &gt;</a>
+                        <a class="float-left cust-color" href="#">Learn More &gt;</a>
                     </div>
                 </div>
             </div>
@@ -270,45 +171,110 @@
     </section>
 
     <section class="count">
-        <div class="container">
+        <div class="container py-5">
                 <h2>Some Count That Matters</h2>
-                <p class="mb-5">Our Achievement In The Journey Depicted In Numbers</p>
-                <div class="d-flex pb-5" style="justify-content: space-evenly;">
-                    <element><p class="font-weight-bold">124</p><span>Vendors count</span></element>
-                    <span class="border"></span>
-                    <element><p class="font-weight-bold">1264</p><span>Days of Service</span></element>
-                    <span class="border"></span>
-                    <element><p class="font-weight-bold">300</p><span>Resources onboarded</span></element>
-                    <span class="border"></span>
-                    <element><p class="font-weight-bold">246</p><span>Projects delivered</span></element>
+                <p class="mb-5 font-weight-normal pb-5" style="font-size:1.1rem;color:#FFCDEE;">Our Achievement In The Journey Depicted In Numbers</p>
+                <div class="d-lg-flex d-md-flex pb-5" style="justify-content: space-evenly;">
+                    <div class="ele"><p class="fn-3 my-sm-0 font-weight-bold">124</p><span>Vendors count</span></div>
+                    <span class="dividor"></span>
+                    <div class="ele"><p class="fn-3 font-weight-bold">1264</p><span>Days of Service</span></div>
+                    <span class="dividor"></span>
+                    <div class="ele"><p class="fn-3 font-weight-bold">300</p><span>Resources onboarded</span></div>
+                    <span class="dividor"></span>
+                    <div class="ele"><p class="fn-3 font-weight-bold">246</p><span>Projects delivered</span></div>
                 </div>
         </div>
     </section>
-    <section>
+
+    <section class="insight">
         <div class="container">
-            <p class="container-1">We take pride in the success stories of our clients. Through our cutting-edge <br>technology solutions, we have helped businesses across various industries achieve <br> remarkable transformations, streamline operations, and drive growth.</p>
-            <div class="row justify-content-center">
-                <div class="services-1 col-md-3">
-                    <p>Aurba</p>
-                   <a class="btn contact-us-btn text-white px-4 grad" href="#">Read More</a>
+            <h2>Insight</h2>
+            <p class="mb-5 mt-3 fn-1">We take pride in the success stories of our clients. Through our cutting-edge <br>technology solutions, we have helped businesses across various industries achieve <br> remarkable transformations, streamline operations, and drive growth.</p>
+            <div class="row justify-content-between">
+                <div class="img-grad">
+                    <div class="services s-1 col-md-3">
+                        <p class="text-left">Aurba</p>
+                    <a class="btn px-4 grad read-more" href="#">Read More</a>
+                    </div>
                 </div>
-                <div class="services-2 col-md-3">
-                    <p>Aurba</p>
-                    <a class="btn contact-us-btn text-white px-4 grad" href="#">Read More</a>
+                <div class="img-grad">
+                    <div class="services s-2 col-md-3">
+                        <p class="text-left">L&T Technology Services</p>
+                    <a class="btn px-4 grad read-more" href="#">Read More</a>
+                    </div>
                 </div>
-                <div class="services-3 col-md-3">
-                    <p>Aurba</p>
-                    <a class="btn contact-us-btn text-white px-4 grad" href="#">Read More</a>
+                <div class="img-grad">
+                    <div class="services s-3 col-md-3">
+                        <p class="text-left">HPE</p>
+                    <a class="btn px-4 grad read-more" href="#">Read More</a>
+                    </div>
                 </div>
-                <div class="services-4 col-md-3">
-                    <p>Aurba</p>
-                    <a class="btn contact-us-btn text-white px-4 grad" href="#">Read More</a>
+                <div class="img-grad">
+                    <div class="services s-4 col-md-3">
+                        <p class="text-left">CGI</p>
+                    <a class="btn px-4 grad read-more" href="#">Read More</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="industries">
+        <div class="container text-left">
+            <h2 class="mb-5 mt-5 text-left">Industries</h2>
+            <div class="row pb-5 d-flex flex-wrap">   
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span><span>Aerospace</span></p>
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span>Industrial engineering</p>
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span>Automotive</p>
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span>Energy & Utilities</p>
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span>Supply chain & Logistics</p>
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span>Travel & Hospitality</p>
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span>Media & Entertainment</p>
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span>Retail</p>
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span>Advertising</p>
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span>Healthcare</p>
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span>Fintech</p>
+                <p class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><span class="arr"><img src="./images/home/arrow.svg" alt="arrow"></span>life Science</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="career">
+        <div class="container rounded mb-5">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <h2>Your Career<br>Journey Starts Here</h2>
+                    <p>Join iSquare soft’s team of talented professionals, where innovation thrives,
+                         and career growth opportunities abound in the dynamic world of software.</p>
+                    <a class="btn rounded text-white px-4 grad" href="#">Discover Career at iSquare soft</a>
+                </div>
+            <div class="col-lg-2 col-sm-12 col-md-12 my-3"></div>
+            <div class="col-lg-5 col-md-12">
+                <img class="rounded img-fluid img-grad" src="./images/home/career.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact">
+        <div class="power-img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <h2>Empowering Internationally Revered<br>Enterprises with Digital Experiences.</h2>
+                        <p class="mt-5">Our mission is to expedite innovation and pave the way for a <br> brighter future by placing digital at the core of corporate strategies.</p>
+                        <a class="btn mt-3 px-4" href="#">CONTACT US</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            
+        </div>
 
     </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

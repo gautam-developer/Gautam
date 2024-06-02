@@ -1,44 +1,143 @@
-.text-left{
-    font-size: 1.1rem;
-    font-weight: 300;
-}
-.text-left h3{
-    font-size:1.3rem;
-    font-weight: 400;
-}
-.float-left{
-    color:#4E41C2;
-}
-.img-fluid{
-    position: relative;
-    object-fit: cover;
-    display: block;
-}
-.img-fluid:hover{
-            background-color: linear-gradient(to top, #4E41C2, #7F56D9); /* Customize the gradient as needed */
-          color:#7F56D9
+.about-us-p{
+    font-family: 'Poppins';font-size: 22px;
+    font-size:17px;
+    line-height: 33px;
 }
 .count{
     color: white;
-  background-image: url("./images/home/rect.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 70vh;
+    background-image: url("./../images/home/rect.jpg");
+    background-position: center;
+    background-size: cover;
 }
-.count p{
-    font-size: 3rem;
+.service-grad{
+    background-image: linear-gradient(to bottom, #7F56D9 0%, #6943D7 100%,transparent);
+    background-position: center;
+    background-size: cover;
 }
-.count h2{
-    font-size:2.5rem;
-    font-family: "Georama", sans-serif;
+.section-grad h4{
+    font-size: 1.1rem;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    margin-bottom: 0px;
 }
-.mb-5{
-    font-size:1.1rem !important;
-    font-weight:400;
-    color:#FFCDEE;
+.services{
+    place-content: end;
+    background-position: center;
+    background-size: cover;
+    width:237px;
+    max-width: 100%;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    height:349px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
 }
-.container-1{
-    font-size:1.5rem;
-    text-align:left;
-    margin-bottom:2rem;
+.s-1{
+    background-image: url("./../images/home/service-1.jpg");
+}
+.s-2{
+    background-image: url("./../images/home/service-2.jpg");
+}
+.s-3{
+    background-image: url("./../images/home/service-3.jpg");
+}
+.s-4{
+    background-image: url("./../images/home/service-4.jpg");
+}
+.service-card{
+    box-shadow: 0px 67.11px 109px 0px #0000000D;
+    border: 1px solid #F3F1FF;
+    border-radius: 10px;
+    padding: 32px;
+    background-color: #fff;
+    padding-bottom: 3rem;
+}
+.dividor{
+    border: 1px solid #9c9b9b;
+}
+@media (max-width: 500px) {
+    .dividor {
+        display: none;
+    }
+    .count p{
+        margin-bottom: 0px !important;
+    }
+    .count span{
+        margin-bottom: 3rem;
+    }
+    .count .ele{
+        margin-bottom: 1.2rem;
+    }
+}
+.read-more{
+    box-shadow: 0px 6px 14px 0px #00216187;
+    background: linear-gradient(93.53deg, #6943D7 2.58%, #4E6FE0 121.99%);
+    border-radius: 25px;
+    float: left;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+.insight .img-grad{
+    border-radius:20px;
+}
+.industries{
+    background-color: #110E09;
+    color: white;
+    margin-bottom: 0px;
+}
+.arr{
+    margin-right: 1rem;
+    vertical-align: text-bottom;
+}
+.career{
+    background-color: #110E09;
+    color: white;
+    text-align: left;
+    padding-bottom: 5rem;
+    margin-bottom: 0px;
+}
+.career a{
+    border-left: 0px;
+    border-right: 0px;
+}
+.career .container{
+    background-image: linear-gradient(to right, rgba(105, 67, 215, 1), rgba(151, 0, 189, 1));
+    padding: 4rem;
+}
+.career img{
+    opacity: 0.7;
+}
+@media (max-width: 800px) {
+    .career .row{
+        flex-direction: column-reverse;
+    }
+}
+
+.contact{
+    padding-top: 0px;
+    padding-bottom: 0rem;
+    text-align: left;
+    background-image: url("./../images/home/businessmen.png");
+    background-size: cover; 
+}
+.power-img{
+    background-color: black;
+    opacity: 0.7; 
+}
+.contact h2{
+    color: #FCE0FF;
+    font-size: 2rem;
+}
+.contact p{
+    color: #ffffff;
+}
+.contact a{
+    background-color: #D9D9D9;
+    color: #333333;
+    font-weight: 700;
+}
+.contact .col-lg-12{
+    padding-bottom: 7rem;
+    padding-top:7rem;
 }
