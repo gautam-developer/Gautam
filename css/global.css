@@ -101,6 +101,6 @@ section{
 }
 @media (max-width: 800px) {
     .bd {
-        display: none;
+        border-left: none;
     }
 }
