@@ -104,3 +104,12 @@ section{
         border-left: none;
     }
 }
+
+/* Software Development */
+
+.software h1{
+    text-align: left;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
