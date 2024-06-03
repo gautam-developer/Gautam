@@ -82,6 +82,7 @@ section{
     color: white;
     text-align: left;
     padding-bottom: 3rem;
+    margin-bottom: 0rem;
 }
 .footer ul li{
     margin-bottom: 0.4rem;
@@ -104,6 +105,7 @@ section{
         border-left: none;
     }
 }
+
 
 /* Software Development */
 
