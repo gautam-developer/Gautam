@@ -1,0 +1,51 @@
+.software{
+    background-image: url('./../images/development/programming.jpg'); 
+    background-size: cover;
+    padding:16rem 0;
+    margin-bottom: 0;
+}
+.driving-digital{
+    padding: 6rem 0;
+    background-image: linear-gradient(to right, rgba(105, 67, 215, 1), rgba(151, 0, 189, 1));
+    color: white;
+    text-align: left;
+    margin-bottom: 0;
+}
+.mb-10{
+    margin-bottom:3rem;
+}
+.service-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    position: relative;
+}
+.service-card-header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+.service-card-header h5 {
+    color: #6f42c1;
+    margin: 0;
+    margin-left: 10px;
+}
+.service-card p {
+    margin-top: 2.5rem;
+}
+
+.tech-stack{
+    background-image: url('./../images/development/tech_stack.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+}
