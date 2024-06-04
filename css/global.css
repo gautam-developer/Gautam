@@ -143,6 +143,10 @@ section{
     position: relative;
     z-index: 2; /* Ensure content is above the pseudo-element */
 }
+.inner-div .content {
+    position: relative;
+    z-index: 2; /* Ensure content is above the pseudo-element */
+}
 
 
 

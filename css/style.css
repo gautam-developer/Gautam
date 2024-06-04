@@ -26,24 +26,27 @@
     background-size: cover;
     width:237px;
     max-width: 100%;
-    opacity: 0.5;
     background-repeat: no-repeat;
     height:349px;
     border-radius: 20px;
     color: white;
     font-size: 20px;
 }
-.s-1{
+.s-1:before{
     background-image: url("./../images/home/service-1.jpg");
+    opacity: 0.5;
 }
-.s-2{
+.s-2:before{
     background-image: url("./../images/home/service-2.jpg");
+    opacity: 0.5;
 }
-.s-3{
+.s-3:before{
     background-image: url("./../images/home/service-3.jpg");
+    opacity: 0.5;
 }
-.s-4{
+.s-4:before{
     background-image: url("./../images/home/service-4.jpg");
+    opacity: 0.5;
 }
 .service-card{
     box-shadow: 0px 67.11px 109px 0px #0000000D;
