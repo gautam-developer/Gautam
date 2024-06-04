@@ -48,4 +48,36 @@
     background-position: center;
     color: white;
     text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+}
+.tech-stack h2{
+    font-family: "Georama", sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    margin: 0;
+}
+.tech-stack p{
+    font-size:2rem;
+    font-family: "Georama", sans-serif;
+    font-weight: bolder;
+    margin: 0;
+}
+.tech-stack h3{
+    padding-left: 15px;
+    margin-bottom: 2rem;
+    font-family: "Georama", sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.tech-stack img{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding:0.7rem;
+    margin-bottom: 1rem;
+}
+.tech-stack hr{
+    margin-top: 3rem;
+    border-bottom: 2px solid white;
 }
