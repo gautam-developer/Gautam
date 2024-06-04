@@ -35,17 +35,21 @@
 .s-1:before{
     background-image: url("./../images/home/service-1.jpg");
     opacity: 0.5;
+    border-radius:15px;
 }
 .s-2:before{
     background-image: url("./../images/home/service-2.jpg");
+    border-radius:15px;
     opacity: 0.5;
 }
 .s-3:before{
     background-image: url("./../images/home/service-3.jpg");
+    border-radius:15px;
     opacity: 0.5;
 }
 .s-4:before{
     background-image: url("./../images/home/service-4.jpg");
+    border-radius:15px;
     opacity: 0.5;
 }
 .service-card{
@@ -84,6 +88,36 @@
 .insight .img-grad{
     border-radius:20px;
 }
+@media (max-width: 800px) {
+    .services{
+        width: 100% ;
+    }
+    #insight{
+        display: none;
+    }
+    #insight-carousel{
+        display: inline;
+    }
+}
+.carousel-control-prev{
+    left: auto;
+}
+/* .carousel-control-prev-icon {
+    background-image: url('./../images/home/arrowcircleleft.svg');
+}
+.carousel-control-next-icon {
+    background-image: url('./../images/home/arrowcircleright.svg');
+} */
+
+@media (min-width:801px){
+    #insight{
+        display: flex;
+    }
+    #insight-carousel{
+        display: none;
+    }
+}
+
 .industries{
     background-color: #110E09;
     color: white;
