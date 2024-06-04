@@ -67,7 +67,7 @@
         margin-bottom: 3rem;
     }
     .count .ele{
-        margin-bottom: 1.2rem;
+        margin-bottom: 2.2rem;
     }
 }
 .read-more{
@@ -101,30 +101,20 @@
     border-left: 0px;
     border-right: 0px;
 }
-.career .container{
-    background-image: linear-gradient(to right, rgba(105, 67, 215, 1), rgba(151, 0, 189, 1));
-    padding: 4rem;
-}
 .career img{
     opacity: 0.7;
+    border: 1px solid #EFDCDF;
 }
 @media (max-width: 800px) {
     .career .row{
         flex-direction: column-reverse;
     }
 }
-
-.contact{
-    padding-top: 0px;
-    padding-bottom: 0rem;
-    margin-bottom: 0rem;
-    text-align: left;
-    background-image: url("./../images/home/businessmen.png");
-    background-size: cover; 
-}
-.power-img{
-    background-color: black;
-    opacity: 0.7; 
+@media (min-width: 513px) {
+    .career .container{
+        background-image: linear-gradient(to right, rgba(105, 67, 215, 1), rgba(151, 0, 189, 1));
+        padding: 4rem;
+    }
 }
 .contact h2{
     color: #FCE0FF;
@@ -138,7 +128,26 @@
     color: #333333;
     font-weight: 700;
 }
+
+@media (max-width: 576px) {
+    .contact a {
+        width: 100%; /* Increase width on mobile devices */
+        text-align: center; /* Center text inside the button */
+    }
+}
+
 .contact .col-lg-12{
     padding-bottom: 7rem;
     padding-top:7rem;
 }
+
+.contact {
+    text-align: left;
+    background-image: url('./../images/home/businessmen.png');
+}
+
+.power-img:before {
+    background-color: black;
+    opacity: 0.7; 
+}
+
