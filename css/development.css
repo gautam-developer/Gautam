@@ -81,3 +81,90 @@
     margin-top: 3rem;
     border-bottom: 2px solid white;
 }
+
+.process .design, .process .discover{
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: #D9D9D9;
+}
+.process .development{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: #D9D9D9;
+}
+.process .testing, .process .deployment{
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: #D9D9D9;
+}
+
+.process .row .col-sm-12:hover{
+    color: white;
+    background-color:#7F56D9;
+}
+.process .img:hover{
+fill: red;
+}
+
+.choose{
+    background: #EFDCDF;
+    margin-bottom: 0;
+    padding: 5rem 0;
+}
+.choose .why-us{
+    text-align: left;
+    color: white;
+    background-image: url('./../images/development/choose.jpg');
+    background-size: cover;
+    padding: 4rem;
+}
+
+.info-box {
+    margin: 10px 0;
+    border-top: 3px solid #3780FF; /* Left border */
+
+}
+.info-box h5 {
+    align-content: center;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.info-box .d-flex p{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 15px;
+    background: #1A2D47;
+}
+
+.choose{
+    position: relative;
+}
+
+.left-box{
+    background-color: #6943D7;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    top: 0%;
+    left: 0%;
+}
+
+@media (max-width:900px){
+    .left-box{
+        position: relative;
+        margin: 0;
+        padding: 2rem;
+    }
+}

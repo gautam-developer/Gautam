@@ -147,3 +147,47 @@ section{
     position: relative;
     z-index: 2; /* Ensure content is above the pseudo-element */
 }
+.industries{
+    background-color: #110E09;
+    color: white;
+    margin-bottom: 0px;
+}
+.arr{
+    margin-right: 1rem;
+    vertical-align: text-bottom;
+}
+
+.contact h2{
+    color: #FCE0FF;
+    font-size: 2rem;
+}
+.contact p{
+    color: #ffffff;
+}
+.contact a{
+    background-color: #D9D9D9;
+    color: #333333;
+    font-weight: 700;
+}
+
+@media (max-width: 576px) {
+    .contact a {
+        width: 100%; /* Increase width on mobile devices */
+        text-align: center; /* Center text inside the button */
+    }
+}
+
+.contact .col-lg-12{
+    padding-bottom: 7rem;
+    padding-top:7rem;
+}
+
+.contact {
+    text-align: left;
+    background-image: url('./../images/home/businessmen.png');
+}
+
+.power-img:before {
+    background-color: black;
+    opacity: 0.7; 
+}
