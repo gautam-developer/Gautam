@@ -175,6 +175,9 @@ section{
         width: 100%; /* Increase width on mobile devices */
         text-align: center; /* Center text inside the button */
     }
+    .industries p{
+        padding:1rem 2rem !important;
+    }
 }
 
 .contact .col-lg-12{
@@ -190,4 +193,7 @@ section{
 .power-img:before {
     background-color: black;
     opacity: 0.7; 
+}
+.industries p{
+    padding:1rem 0;
 }
