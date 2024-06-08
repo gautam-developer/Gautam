@@ -127,7 +127,11 @@ fill: red;
     background-size: cover;
     padding: 4rem;
 }
-
+.vector{
+    background-image: url("./../images/testing/Vector.png");
+    background-position: center;
+    background-size: cover;
+}
 .info-box {
     margin: 10px 0;
     border-top: 3px solid #3780FF; /* Left border */
