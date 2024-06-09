@@ -304,8 +304,8 @@
     font-size: 1.2rem;
     font-weight: 600;
 }
-.border-for-shift{
-    border-left: 1px solid #000;
+.shift-p .bl{
+    border-left: 1px solid #D5D5D5;
 }
 
 /* contact-us page */
