@@ -11,6 +11,14 @@
     text-align: left;
     margin-bottom: 0;
 }
+@media (max-width:800px){
+    .driving-digital{
+        padding: 0rem 0;
+    }
+    .driving-digital .row{
+        flex-direction: column-reverse;
+    } 
+}
 @media (min-width: 900px) {
     .driving-digital{
         padding-top: 4rem;
@@ -22,7 +30,7 @@
     }
     .driving-digital .row{
         max-width: 100%;
-    }   
+    }
 }
 .mb-10{
     margin-bottom:3rem;
@@ -85,9 +93,9 @@
     font-size: 2rem;
 }
 .tech-stack img{
-    border: 1px solid #fff;
-    border-radius: 20px;
-    padding:0.7rem;
+    border: 2px solid #F7F7F7;
+    border-radius: 15px;
+    padding:0.5rem;
     margin-bottom: 1rem;
 }
 .tech-stack hr{
@@ -95,7 +103,7 @@
     border-bottom: 2px solid white;
 }
 
-.process .design, .process .discover{
+.discover{
     border-top-width: 0px;
     border-right-width: 1px;
     border-bottom-width: 1px;
@@ -120,12 +128,14 @@
     border-color: #D9D9D9;
 }
 
-.process .row .col-sm-12:hover{
+.discover:hover{
     color: white;
     background-color:#7F56D9;
+    box-shadow: 1px 12px 25px 0px #00000040;
+    transition: all 0.3s ease;
 }
-.process .img:hover{
-fill: red;
+.discover:hover svg path{
+    stroke: #ffffff;
 }
 
 .choose{
@@ -168,9 +178,7 @@ fill: red;
 
 .left-box{
     background-color: #6943D7;
-    padding-left: 5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2.5rem;
     position: absolute;
     margin-top: 2rem;
     margin-left: 2rem;
@@ -184,4 +192,84 @@ fill: red;
         margin: 0;
         padding: 2rem;
     }
+}
+
+.software-ts{
+    background-image: url('./../images/tag-services/teamwork.jpg'); 
+    background-size: cover;
+    padding:16rem 0;
+    margin-bottom: 0;
+    background-position: center;
+}
+
+.software-px{
+    background-image: url('./../images/testing/programming-img.jpg'); 
+    background-size: cover;
+    padding:16rem 0;
+    margin-bottom: 0;
+    background-position: center;
+}
+.services-section {
+    background-color: #E7EEFA; /* Light blue background */
+    padding:0;
+    margin:0;
+}
+.services-section h2 {
+  color: #6f42c1; /* Purple color for the heading */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.services-section ol li{
+    padding:0.2rem 0;
+}
+.flow-chart{
+    background-color: #eeeeee;
+}
+.flow-chart h2{
+    border-bottom: 2px solid #000;
+    padding-bottom:1rem;
+}
+@media (max-width:800px) {
+    .services-section{
+        display: none;
+    }
+}
+
+.cust-li ul{
+    padding: 1rem;
+}
+
+.cust-li li {
+    padding-left: 10px !important;
+    list-style-type: '\1F7E3';
+    padding: 0.9rem 0rem 0.5rem 0rem;
+}
+
+
+.cust-li h2 {
+    color: #373737; /* Purple color for the heading */
+    font-weight:200;
+    font-size: 2rem;
+    font-family: "Georama", sans-serif;
+  }
+  
+.cust-li .discover {
+    /* border: 1px solid #C2C2C2; */
+    /* border-radius: 10px; */
+    border: none;
+    padding: 1rem;
+}
+.cust-list-fnt{
+    font-size: 0.9rem;
+}
+.cust-li ul li::marker{
+    font-size: 0.8rem;
+}
+@media (min-width:921px) {
+    .img-test{
+        max-width: fit-content;
+    }
+}
+.tag-services{
+    max-width: fit-content;
 }
