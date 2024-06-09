@@ -11,6 +11,19 @@
     text-align: left;
     margin-bottom: 0;
 }
+@media (min-width: 900px) {
+    .driving-digital{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .driving-digital .container{
+        max-width: 100%;
+        padding: 0;
+    }
+    .driving-digital .row{
+        max-width: 100%;
+    }   
+}
 .mb-10{
     margin-bottom:3rem;
 }
