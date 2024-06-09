@@ -319,4 +319,27 @@
 }
 .feel-free{
     background-color: #613EC7;
+    margin-bottom: 0;
+}
+.dark{
+    background-color: black;
+}
+.form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-custom {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.form-control{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+}
+.iti{
+    width: inherit;
 }
