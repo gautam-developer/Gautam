@@ -329,6 +329,7 @@
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:#78909C;
 }
 .btn-custom {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -340,6 +341,13 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #F5F5F5;
 }
+#file-upload{
+    border: 1px solid #E2E7EA;
+    padding: 1rem;
+}
 .iti{
     width: inherit;
+}
+.iti--separate-dial-code .iti__selected-flag {
+    background-color: #F5F5F5 !important;
 }
