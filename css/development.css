@@ -320,9 +320,17 @@
 .feel-free{
     background-color: #613EC7;
     margin-bottom: 0;
+    padding-bottom: 4rem;
 }
 .dark{
     background-color: black;
+    border-radius: 10px;
+    height: fit-content;
+}
+@media (max-width: 500px){
+    .dark{
+        margin: 15px;
+    }
 }
 .form-container {
     background-color: white;
