@@ -5,9 +5,18 @@ body, html {
     font-family: "Poppins", sans-serif;
     text-align: center;
 }
-.navigation-bar{
+/* .navigation-bar{
     margin-bottom: 0;
-}
+} */
+ .nav-item .dropdown-item{
+    color: rgba(0,0,0,.5);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+ }
+ .nav-item .dropdown-item:hover{
+    color: rgba(0,0,0,.7);
+ }
+
 .navbar-nav .nav-link {
     margin-right: 20px;
 }
@@ -222,7 +231,4 @@ section{
 }
 .industries p{
     padding:1rem 0;
-}
-@media (max-width:900px){
-    
 }

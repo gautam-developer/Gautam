@@ -151,6 +151,20 @@
     margin-bottom: 0;
     background-position: center;
 }
+.item-2{
+    background-image: url('../images/home/hero.png');
+    background-size: cover;
+    padding:16rem 0;
+    margin-bottom: 0;
+    background-position: center;
+}
+.item-3{
+    background-image: url('../images/home/hero.png');
+    background-size: cover;
+    padding:16rem 0;
+    margin-bottom: 0;
+    background-position: center;
+}
 
 .hero{
     padding-bottom: 2rem;
