@@ -5,9 +5,10 @@ body, html {
     font-family: "Poppins", sans-serif;
     text-align: center;
 }
-/* .navigation-bar{
-    margin-bottom: 0;
-} */
+.navigation-bar{
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
 
  .nav-item .dropdown-item{
     color: rgba(0,0,0,.5);
