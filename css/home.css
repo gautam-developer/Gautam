@@ -160,6 +160,7 @@
 }
 .item-3{
     background-image: url('../images/home/hero.png');
+    background-repeat: no-repeat;
     background-size: cover;
     padding:16rem 0;
     margin-bottom: 0;
@@ -168,4 +169,15 @@
 
 .hero{
     padding-top: 0px;
+}
+.hero-text{
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+.watch-video a{
+    padding:1rem 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    margin:2rem;
+    text-decoration: none;
 }
