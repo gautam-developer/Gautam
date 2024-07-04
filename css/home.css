@@ -147,14 +147,14 @@
 .item-1{
     background-image: url('../images/home/hero.png');
     background-size: cover;
-    padding:16rem 0;
+    padding:10rem 0;
     margin-bottom: 0;
     background-position: center;
 }
 .item-2{
     background-image: url('../images/home/hero.png');
     background-size: cover;
-    padding:16rem 0;
+    padding:10rem 0;
     margin-bottom: 0;
     background-position: center;
 }
@@ -162,7 +162,7 @@
     background-image: url('../images/home/hero.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding:16rem 0;
+    padding:10rem 0;
     margin-bottom: 0;
     background-position: center;
 }
@@ -174,10 +174,13 @@
     font-size: 2.5rem;
     margin-bottom: 1em;
 }
+.watch-video{
+    padding-top: 5rem;
+}
 .watch-video a{
     padding:1rem 2rem;
     color: #fff;
     font-size: 1.5rem;
-    margin:2rem;
+    text-align: center;
     text-decoration: none;
 }

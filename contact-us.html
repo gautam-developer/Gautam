@@ -28,7 +28,7 @@
                      <ul class="navbar-nav">
                          <li class="nav-item dropdown">
                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                 Serivces
+                                 Services
                              </a>
                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                  <a class="dropdown-item" href="./development.html">Software Development</a>
@@ -217,6 +217,36 @@
 
     <script>
         $(document).ready(function() {
+
+//  $('#contactForm').on('submit', function(e){
+//                 e.preventDefault();
+                
+//                 var formData = new FormData();
+//                 formData.append('name', $('#name').val());
+//                 formData.append('email', $('#email').val());
+//                 formData.append('phone', $('#phone').val());
+//                 formData.append('message', $('#message').val());
+//                 formData.append('country', $('#country').val());
+//                 formData.append('file', $('#file-upload')[0].files[0]);
+
+//                 $.ajax({
+//                     url: 'YOUR_SERVER_ENDPOINT_HERE', // Replace with your server endpoint
+//                     type: 'POST',
+//                     data: formData,
+//                     processData: false,
+//                     contentType: false,
+//                     success: function(response) {
+//                         alert('Form submitted successfully!');
+//                         // handle success response
+//                     },
+//                     error: function(xhr, status, error) {
+//                         alert('Form submission failed!');
+//                         // handle error response
+//                     }
+//                 });
+//             });
+
+            
             var input = document.querySelector("#country");
             intlTelInput(input, {
                 initialCountry: "us",
