@@ -8,6 +8,7 @@ body, html {
 /* .navigation-bar{
     margin-bottom: 0;
 } */
+
  .nav-item .dropdown-item{
     color: rgba(0,0,0,.5);
     padding-top: 1rem;
@@ -54,6 +55,9 @@ body, html {
     .desk-con{
         display: none;
     }
+    .dropdown-menu{
+        text-align: -webkit-center;
+     }
 }
 @media (min-width:801px) {
     .desk-con{
