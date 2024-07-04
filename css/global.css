@@ -11,6 +11,21 @@ body, html {
 .navbar-nav .nav-link {
     margin-right: 20px;
 }
+.navbar-nav ul li a{
+    color:#333333;
+    font-weight:600;
+}
+.navbar-nav ul li a{
+    color:#000;
+}
+.nav-set{
+    padding:0;
+    margin:0;
+}
+.nav-set a{
+    padding:1rem 2rem;
+    color: #333333;
+}
 .navbar-brand img {
     max-height: 40px;
 }
@@ -47,7 +62,11 @@ section{
     margin-bottom:4rem;
 }
 .grad{
-    background-image: linear-gradient(to right, #3509B5 , #A100EC);
+    background-image: linear-gradient(to right, #6943D7 , #4E6FE0) !important;
+    border:none;
+}
+.grad:hover{
+    color: #fff;
 }
 .img-grad{
     background: linear-gradient(to top, #3407b7 17.3%, #e6e5f4 112.65%);
