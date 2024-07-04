@@ -152,7 +152,7 @@ section{
     z-index: 2; /* Ensure content is above the pseudo-element */
 }
 .industries{
-    background-color: #110E09;
+    background-color: #222;
     color: white;
     margin-bottom: 0px;
 }
