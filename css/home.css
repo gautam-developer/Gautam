@@ -144,4 +144,15 @@
         padding: 4rem;
     }
 }
+.carousel-item-1{
+    background-image: url('../images/home/hero.png');
+    background-size: cover;
+    padding:16rem 0;
+    margin-bottom: 0;
+    background-position: center;
+}
 
+.hero{
+    padding-bottom: 2rem;
+    margin-bottom: 1px !important;
+}
