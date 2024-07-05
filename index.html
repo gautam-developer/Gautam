@@ -257,13 +257,13 @@
                 <h2 class="mb-sm-3">Some Count That Matters</h2>
                 <p class="mb-5 font-weight-normal pb-5" style="font-size:1.1rem;color:#FFCDEE;">Our Achievement In The Journey Depicted In Numbers</p>
                 <div class="d-lg-flex d-md-flex pb-5" style="justify-content: space-evenly;">
-                    <div class="ele"><p class="fn-3 my-sm-0 font-weight-bold">124</p><span>Vendors count</span></div>
+                    <div class="ele"><p class="fn-3 my-sm-0 font-weight-bold counter" data-target="124">0</p><span>Vendors count</span></div>
                     <span class="dividor"></span>
-                    <div class="ele"><p class="fn-3 font-weight-bold">1264</p><span>Days of Service</span></div>
+                    <div class="ele"><p class="fn-3 font-weight-bold counter" data-target="1264">0</p><span>Days of Service</span></div>
                     <span class="dividor"></span>
-                    <div class="ele"><p class="fn-3 font-weight-bold">300</p><span>Resources onboarded</span></div>
+                    <div class="ele"><p class="fn-3 font-weight-bold counter" data-target="300">0</p><span>Resources onboarded</span></div>
                     <span class="dividor"></span>
-                    <div class="ele"><p class="fn-3 font-weight-bold">246</p><span>Projects delivered</span></div>
+                    <div class="ele"><p class="fn-3 font-weight-bold counter" data-target="246">0</p><span>Projects delivered</span></div>
                 </div>
         </div>
     </section>
@@ -475,5 +475,44 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const counters = document.querySelectorAll('.counter');
+        const speed = 10000; // The lower the slower
+
+        counters.forEach(counter => {
+            const updateCount = () => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+
+                // Lower inc to slow and higher to slow
+                const inc = target / speed;
+
+                // Check if target is reached
+                if (count < target) {
+                    // Add inc to count and output in counter
+                    counter.innerText = Math.ceil(count + inc);
+                    // Call function every ms
+                    setTimeout(updateCount, 1);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+
+            // when the user scrolls to the element
+            const onScroll = () => {
+                const scrollPosition = window.scrollY + window.innerHeight;
+                const elementPosition = counter.getBoundingClientRect().top + window.scrollY;
+
+                if (scrollPosition >= elementPosition) {
+                    window.removeEventListener('scroll', onScroll);
+                    updateCount();
+                }
+            };
+
+            window.addEventListener('scroll', onScroll);
+        });
+    });
+    </script>
 </body>
 </html>

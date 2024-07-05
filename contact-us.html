@@ -81,20 +81,17 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="form-container">
-                        <form>
+                <div class="col-lg-6 col-md-12 col-sm-12 form-container">
+                    <div>
+                        <form id="contact-form" enctype="multipart/form-data">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Enter your name" required>
+                                <input type="text" class="form-control" placeholder="Enter your name" id="name" required>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Enter your email address" required>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Enter your phone number" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" rows="9" placeholder="Enter your message" required></textarea>
+                                <textarea class="form-control" id="message" rows="9" placeholder="Enter your message" required></textarea>
                             </div>
                             <div class="form-group text-left ">
                                 <label for="country">Country:</label>
@@ -221,40 +218,40 @@
     <script>
         $(document).ready(function() {
 
-//  $('#contactForm').on('submit', function(e){
-//                 e.preventDefault();
-                
-//                 var formData = new FormData();
-//                 formData.append('name', $('#name').val());
-//                 formData.append('email', $('#email').val());
-//                 formData.append('phone', $('#phone').val());
-//                 formData.append('message', $('#message').val());
-//                 formData.append('country', $('#country').val());
-//                 formData.append('file', $('#file-upload')[0].files[0]);
+            const form = document.getElementById('contact-form');
+            form.addEventListener('submit', function(e) {
+                e.preventDefault(); // Prevent the default form submission
+                var file_data = $("#file-upload").prop("files")[0];
+                const form_data = new FormData(); // Create FormData object with form data
+                form_data.append("file", file_data);
+                form_data.append("name",document.getElementById('name').value);
+                form_data.append("email",document.getElementById('email').value);
+                form_data.append("message",document.getElementById('message').value);
+                form_data.append("phone",document.getElementsByClassName('iti__selected-dial-code')[0].innerText +' '+document.getElementById('country').value);
 
-//                 $.ajax({
-//                     url: 'YOUR_SERVER_ENDPOINT_HERE', // Replace with your server endpoint
-//                     type: 'POST',
-//                     data: formData,
-//                     processData: false,
-//                     contentType: false,
-//                     success: function(response) {
-//                         alert('Form submitted successfully!');
-//                         // handle success response
-//                     },
-//                     error: function(xhr, status, error) {
-//                         alert('Form submission failed!');
-//                         // handle error response
-//                     }
-//                 });
-//             });
-
+                fetch('http://127.0.0.1/rubiktek/mail.php', {
+                    method: 'POST',
+                    body: form_data
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        document.getElementsByTagName('form')[0].innerHTML="Email Sent Successfully";
+                    } else {
+                        document.getElementsByTagName('form')[0].innerHTML="Some Error Occured Kindly reach me at admin@test.com";
+                    }
+                    console.log(data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementsByTagName('form')[0].innerHTML="Some Error Occured Kindly reach me at admin@test.com";
+                });
+            });
             
             var input = document.querySelector("#country");
             intlTelInput(input, {
                 initialCountry: "us",
                 separateDialCode: true,
-                containerClass: "vikas",
                 geoIpLookup: function(success, failure) {
                     fetch("https://ipapi.co/json")
                     .then(function(res) { return res.json(); })
