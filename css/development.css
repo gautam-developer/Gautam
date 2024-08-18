@@ -424,19 +424,65 @@
     line-height: 30px;
 }
 
-.Core-img {
+
+    .bg-color .Core-img {
+      opacity: 1;
+      visibility: visible;
+      transition: opacity 0.3s, visibility 0.5s;
+    }
+    .outer a{
+      padding:0.7rem 2rem;
+      border:2px solid #fff;
+      color: #fff;
+      text-decoration: none;
+    }
+    .bg-color .outer {
+    border-radius: 25px;
+      display: none;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 1s;
+    }
+    
+    .bg-color:hover{
+        border-radius: 25px;
+        transition: opacity 0.3s, visibility 1s;
+        background-image: linear-gradient(0deg, #E056FD 0%, #000102 100%);
+        color: white;
+    }
+    
+    .bg-color:hover .Core-img {
+      display: none;
+      transition: opacity 0.3s, visibility 1s;
+      opacity: 0.7;
+      visibility: hidden;
+    }
+    
+    .bg-color:hover .outer {
+      transition: opacity 0.3s, visibility 1s;
+      display: block;
+      opacity: 0.7;
+      visibility: visible;
+      animation:fadeInUp;
+      animation-duration: 1s;
+    }
+
+ .bg-color {
+    position: absolute;
     background: url('../images/enterprise/erp-1.jpg');
     background-size: cover;
     margin-bottom: 0;
-    position: relative;
-    place-content: end;
-    z-index: 1;
-    transition: background 0.3s ease;
     background-position: center;
     border-radius: 25px;
-    height: 350px;
     overflow: hidden;
 }
+.Core-img h4{
+    position: relative;
+    padding-top: 16rem;
+    margin-bottom: 0px;
+    padding-bottom: 2rem;
+}
+/*
 .Core-img .content h4{
     padding-bottom: 1rem;
 }
@@ -457,5 +503,5 @@
     visibility: hidden;
     position: absolute;
     transition: background 0.3s ease;
-}
+} */
 
