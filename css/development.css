@@ -423,3 +423,39 @@
 .tech-exp-p{
     line-height: 30px;
 }
+
+.Core-img {
+    background: url('../images/enterprise/erp-1.jpg');
+    background-size: cover;
+    margin-bottom: 0;
+    position: relative;
+    place-content: end;
+    z-index: 1;
+    transition: background 0.3s ease;
+    background-position: center;
+    border-radius: 25px;
+    height: 350px;
+    overflow: hidden;
+}
+.Core-img .content h4{
+    padding-bottom: 1rem;
+}
+
+.Core-img:hover .hover-trigger{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.Core-img:hover{
+    visibility: hidden;
+}
+
+.hover-trigger{
+    border-radius: 25px;
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    transition: background 0.3s ease;
+}
+
