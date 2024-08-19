@@ -432,7 +432,6 @@
 .core-strength h1{
     font-size: 2rem;
     font-weight: 700;
-
 }
 
     .bg-color .Core-img {
@@ -512,6 +511,9 @@
 .bg-3{
     background-image:  linear-gradient(to bottom,transparent 0%, #38173f 80%), url('../images/enterprise/erp-3.jpg');
     height: 21rem;
+}
+.bg-action{
+    background: linear-gradient(135deg, #1E1B3A, #2C1F5D, #0F0E17);
 }
 /*
 .Core-img .content h4{
