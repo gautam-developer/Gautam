@@ -363,6 +363,19 @@
     background-color: #F5F5F5 !important;
 }
 
+/* globe css */
+
+.globe-path h2{
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.globe-path h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin:20px 0;
+}
+
 /* erp css */
 .erp-details h1{
     font-size:5rem;
