@@ -6,88 +6,14 @@
     <title>iSquareSoft</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="icon" type="image/x-icon" href="./images/faicon.png">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/development.css">
-
-    <style>
-        .software-px{
-        background-image: url('./images/globe-services/Rectangle-4392.jpg'); 
-        background-size: cover;
-        padding:16rem 0;
-        margin-bottom: 0;
-        background-position: center;
-        }
-        .globe-row{
-            background-color: #EFEFEF;
-            padding:2rem 0;
-            margin:0;
-        }
-        .globe-row p{
-            font-size: 1.2rem;
-            color: #5D5D5D;
-            margin:0;
-        }
-        .globe-1 h2{
-            font-family: "Georama", sans-serif !important;
-            font-size: 2.2rem;
-            font-weight: bold;
-            color: #2D2D2D;
-        }
-        .globe-1 p{
-            font-size: 1.2rem;
-            font-weight: normal;
-            color: #2D2D2D;
-        }
-        .globe-1 img{
-            margin-right: 1rem;
-        }
-        .globe-1 ul li{
-            padding:0.4rem 0;
-        }
-        .globe-network {
-            background-color: #EFEFEF;
-            margin:0;
-            padding:4rem 0;
-        }
-        .globe-network h2{
-            font-family: "Georama", sans-serif;
-            font-size: 2.6rem;
-            font-weight:normal;
-            color: #444444;
-        }
-        .globe-network p{
-            font-family: "Georama", sans-serif;
-            font-size: 1.3rem;
-            font-weight:normal;
-            color: #444444;
-        }
-        .globe-network ul li{
-            padding:0.3rem 0;
-        }
-        .globe-network ul li img{
-            margin-right: 1rem;
-        }
-        .text-globe{
-            background-color: #613EC7;
-            padding:10rem 0;
-            margin:0;
-        }
-        .text-globe p{
-            font-size: 1.6rem;
-            color: #fff;
-        }
-        @media (max-width: 800px) {
-            .img-reverse-mob{
-            flex-direction: column-reverse;
-         }
-         .globe-network img{
-            margin-bottom: 2rem;
-         }
-        }
-    </style>
 </head>
 <body>
     <section class="navigation-bar">
@@ -97,7 +23,7 @@
                      <span class="navbar-toggler-icon"></span>
                  </button>
                  <a class="navbar-brand" href="./index.html">
-                     <img src="images/logo/logo.svg" alt="iSquareSoft Logo">
+                     <img src="images/logo/logo-white.png" alt="iSquareSoft Logo">
                  </a>
                  <a class="btn contact-us-btn text-white px-4 grad mob-con" href="./contact-us.html">Contact Us</a>
                  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -109,6 +35,7 @@
                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                  <a class="dropdown-item" href="./development.html">Software Development</a>
                                  <a class="dropdown-item" href="./testing.html">Software Testing</a>
+                                 <a class="dropdown-item" href="./cloud.html">Cloud Services</a>
                                  <a class="dropdown-item" href="./tag-services.html">Tag Services</a>
                                  <a class="dropdown-item" href="./globle-services.html">Global Services</a>
                                  <a class="dropdown-item" href="./enterprise-resources.html">ERP Services</a>
@@ -132,498 +59,104 @@
              </div>
          </nav>
      </section>
-    <section class="software-px">
+
+    <section class="software-ll">
         <div class="container">
-            <h1 class="text-left text-white font-weight-bold">Global Services</h1>
+            <h1 class="text-left text-white font-weight-bold">Global Services and Management Solutions</h1>
         </div>
     </section>
 
+    <section class="erp-details">
+        <div class="container">
+            <h1 class="text-left">"</h1>
+            <h3 class="text-center">At I Square Tek, we deliver comprehensive global services designed to support and enhance your business operations. With extensive experience, we offer innovative solutions across management, infrastructure, and network implementations.</h3>
+        </div>
+    </section>
 
-    <section class="globe-row">
-        <div class="container-fluid">
+    <section>
+        <div class="container">
             <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-2"><p>Wireless</p></div>
-                <div class="col-lg-2"><p>Management & Operations</p></div>
-                <div class="col-lg-2"><p>SD-WAN</p></div>
-                <div class="col-lg-2"><p>Security</p></div>
-                <div class="col-lg-2"><P>Switches</P></div>
-                <div class="col-lg-1"></div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-interval="1000">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div>
+                                    <img src="./images/globe-services/globe-1.png" class="col-md-4 img-fluid" alt="...">
+                                </div>
+                                <div>
+                                    <img src="./images/globe-services/globe-1.png" class="col-md-4 img-fluid" alt="...">
+                                </div>
+                                
+                                <img src="./images/globe-services/globe-2.png" class="col-md-4 img-fluid" alt="...">
+                                <img src="./images/globe-services/globe-3.png" class="col-md-4 img-fluid" alt="...">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-interval="1000">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <img src="./images/globe-services/globe-3.png" class="col-md-4 img-fluid" alt="...">
+                                <img src="./images/globe-services/globe-4.png" class="col-md-4 img-fluid" alt="...">
+                                <img src="./images/globe-services/globe-5.png" class="col-md-4 img-fluid" alt="...">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                  </div>
             </div>
         </div>
     </section>
-
-
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5"><img src="./images/globe-services/Rectangle-4424.jpg" alt="" class="img-fluid"></div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-6 globe-1 text-left align-content-center">
-                <h2>What do we do?</h2>
-                <p>Welcome to ISquare Soft, your trusted partner in the world of networking and IT services. We specialize in providing innovative solutions to streamline your business operations, enhance security, and optimize network performance.</p>
-                <ul class="list-unstyled">
-                    <li><img src="./images/globe-services/checkmark.svg" alt="">Enhanced Connectivity</li>
-                    <li><img src="./images/globe-services/checkmark.svg" alt="">Efficiency Optimization</li>
-                    <li><img src="./images/globe-services/checkmark.svg" alt="">Security Assurance</li>
-                    <li><img src="./images/globe-services/checkmark.svg" alt="">Cost-Effective Solutions</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="globe-network">
-    <div class="container ">
-
-        <div class="row align-items-center img-reverse-mob">
-            <div class="col-lg-6 text-left ">
-                <h2 class="pb-2">Network implementation</h2>
-                <ul class="list-unstyled">
-                    <li class="d-flex">
-                        <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1269_918)">
-                        <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                        <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1269_918">
-                        <rect width="24.12" height="24.12" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        <p class="pl-1">Careful planning and design are essential for a successful network implementation.</p></li>
-                        <li class="d-flex">
-                            <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_1269_918)">
-                            <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_1269_918">
-                            <rect width="24.12" height="24.12" fill="white"/>
-                            </clipPath>
-                            </defs>
-                            </svg>
-                            <p class="pl-1">Choosing the right hardware and software is crucial to meet performance and compatibility requirements.</p></li>
-                            <li class="d-flex">
-                                <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1269_918)">
-                                <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                                <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1269_918">
-                                <rect width="24.12" height="24.12" fill="white"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                                <p class="pl-1">Thorough testing and documentation streamline deployment and future maintenance.</p></li>
-                    
-                </ul>
-            </div>
-
-            
-            <div class="col-lg-1"></div>
-            <div class="col-lg-5"><img src="./images/globe-services/wifi.jpg "alt="" class="img-fluid"></div>
-
-        </div>
-
-
-        <div class="row pt-5 align-items-center">
-           
-            <div class="col-lg-5"><img src="./images/globe-services/female.png "alt="" class="img-fluid"></div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-6 text-left ">
-                <h2 class="pb-2">Network as a Service (NaaS)</h2>
-                <ul class="list-unstyled">
-                    <li class="d-flex">
-                        <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1269_918)">
-                        <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                        <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1269_918">
-                        <rect width="24.12" height="24.12" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        <p class="pl-1">Scalable network resources on-demand, reducing upfront hardware investments.</p></li>
-                        <li class="d-flex">
-                            <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_1269_918)">
-                            <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_1269_918">
-                            <rect width="24.12" height="24.12" fill="white"/>
-                            </clipPath>
-                            </defs>
-                            </svg>
-                            <p class="pl-1">Cost-efficiency through subscription-based networking, ideal for budget-conscious organizations.</p></li>
-                            <li class="d-flex">
-                                <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1269_918)">
-                                <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                                <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1269_918">
-                                <rect width="24.12" height="24.12" fill="white"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                                <p class="pl-1">NaaS enables remote management and centralized control for improved network accessibility and security.</p></li>
-                    
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="row pt-5 align-items-center img-reverse-mob">
-            <div class="col-lg-6 text-left ">
-                <h2 class="pb-4">Wireless Solutions</h2>
-                <ul class="list-unstyled">
-                    <li class="d-flex">
-                        <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1269_918)">
-                        <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                        <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1269_918">
-                        <rect width="24.12" height="24.12" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        <p class="pl-1">High-speed, reliable wireless networks tailored to your business needs.</p></li>
-                        <li class="d-flex">
-                            <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_1269_918)">
-                            <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_1269_918">
-                            <rect width="24.12" height="24.12" fill="white"/>
-                            </clipPath>
-                            </defs>
-                            </svg>
-                            <p class="pl-1">High-speed, reliable wireless networks tailored
-                                to your business needs.</p></li>
-                            <li class="d-flex">
-                                <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1269_918)">
-                                <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                                <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1269_918">
-                                <rect width="24.12" height="24.12" fill="white"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                                <p class="pl-1">Enhanced mobility and productivity, allowing
-                                    your team to work from anywhere.</p></li>
-                    
-                </ul>
-            </div>
-
-            
-            <div class="col-lg-1"></div>
-            <div class="col-lg-5"><img src="./images/globe-services/wifi.jpg "alt="" class="img-fluid"></div>
-
-        </div>
-        
-        <div class="row pt-5 align-items-center">
-           
-            <div class="col-lg-5"><img src="./images/globe-services/professional.jpg "alt="" class="img-fluid"></div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-6 text-left ">
-                <h2 class="pb-2">Switches and Network Infrastructure</h2>
-                <ul class="list-unstyled">
-                    <li class="d-flex">
-                        <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1269_918)">
-                        <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                        <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1269_918">
-                        <rect width="24.12" height="24.12" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        <p class="pl-1">Robust and scalable network switches for improved data handling.</p></li>
-                        <li class="d-flex">
-                            <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_1269_918)">
-                            <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_1269_918">
-                            <rect width="24.12" height="24.12" fill="white"/>
-                            </clipPath>
-                            </defs>
-                            </svg>
-                            <p class="pl-1">Expert network design and infrastructure optimization to maximize efficiency.</p></li>
-                            <li class="d-flex">
-                                <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1269_918)">
-                                <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                                <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1269_918">
-                                <rect width="24.12" height="24.12" fill="white"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                                <p class="pl-1">Smooth data traffic management for uninterrupted operations.</p></li>
-                    
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="row pt-5 align-items-center img-reverse-mob">
-            <div class="col-lg-6 text-left ">
-                <h2 class="pb-4">Management & Operations</h2>
-                <ul class="list-unstyled">
-                    <li class="d-flex">
-                        <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1269_918)">
-                        <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                        <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1269_918">
-                        <rect width="24.12" height="24.12" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        <p class="pl-1">Proactive network monitoring and management to prevent downtime.</p></li>
-                        <li class="d-flex">
-                            <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_1269_918)">
-                            <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_1269_918">
-                            <rect width="24.12" height="24.12" fill="white"/>
-                            </clipPath>
-                            </defs>
-                            </svg>
-                            <p class="pl-1">Efficient resource allocation, ensuring optimal performance and cost savings.</p></li>
-                            <li class="d-flex">
-                                <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1269_918)">
-                                <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                                <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1269_918">
-                                <rect width="24.12" height="24.12" fill="white"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                                <p class="pl-1">24/7 support from our dedicated team to address any issues promptly.</p></li>
-                    
-                </ul>
-            </div>
-
-            
-            <div class="col-lg-1"></div>
-            <div class="col-lg-5"><img src="./images/globe-services/service.jpg "alt="" class="img-fluid"></div>
-
-        </div>
-
-        <div class="row pt-5 align-items-center">
-           
-            <div class="col-lg-5"><img src="./images/globe-services/deploy.jpg "alt="" class="img-fluid"></div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-6 text-left ">
-                <h2 class="pb-2">SD-WAN (Software-Defined Wide Area Network)</h2>
-                <ul class="list-unstyled">
-                    <li class="d-flex">
-                        <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1269_918)">
-                        <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                        <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1269_918">
-                        <rect width="24.12" height="24.12" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        <p class="pl-1">Dynamic and cost-effective WAN solutions that adapt to your changing needs.</p></li>
-                        <li class="d-flex">
-                            <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_1269_918)">
-                            <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_1269_918">
-                            <rect width="24.12" height="24.12" fill="white"/>
-                            </clipPath>
-                            </defs>
-                            </svg>
-                            <p class="pl-1">Enhanced network performance and flexibility, even for remote locations.</p></li>
-                            <li class="d-flex">
-                                <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1269_918)">
-                                <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                                <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1269_918">
-                                <rect width="24.12" height="24.12" fill="white"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                                <p class="pl-1">Centralized control and robust security measures to safeguard your data.</p></li>
-                    
-                </ul>
-            </div>
-
-        </div>
-
-            <div class="row pt-5 align-items-center img-reverse-mob">
-                <div class="col-lg-6 text-left ">
-                    <h2 class="pb-4">Security Solutions</h2>
-                    <ul class="list-unstyled">
-                        <li class="d-flex">
-                            <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_1269_918)">
-                            <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_1269_918">
-                            <rect width="24.12" height="24.12" fill="white"/>
-                            </clipPath>
-                            </defs>
-                            </svg>
-                            <p class="pl-1">Comprehensive cybersecurity strategies to defend against evolving threats.</p></li>
-                            <li class="d-flex">
-                                <svg width="50" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1269_918)">
-                                <path d="M6.29004 12.06L10.63 16.44L19.05 7.92999" stroke="#01A982" stroke-width="2" stroke-miterlimit="10"/>
-                                <path d="M12.06 23.37C18.3063 23.37 23.37 18.3063 23.37 12.06C23.37 5.81366 18.3063 0.75 12.06 0.75C5.81366 0.75 0.75 5.81366 0.75 12.06C0.75 18.3063 5.81366 23.37 12.06 23.37Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1269_918">
-                                <rect width="24.12" height="24.12" fill="white"/>
-                                </clipPath>
-                                </defs>
-                                </svg>
-                                <p class="pl-1">Real-time threat detection and proactive prevention measures.</p></li>
-                        
-                    </ul>
-                </div>
     
-                
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5"><img src="./images/globe-services/plan.jpg "alt="" class="img-fluid"></div>
-    
-            </div>
 
-    </div>
-</section>
-
-
-<section class="text-globe">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="align-content-center">
-                With our comprehensive suite of services, we empower your business to thrive in the digital age, offering tailor-made solutions that address your unique challenges and goals. Whether you're seeking a more secure network, improved performance, or cost-effective IT strategies, we've got you covered.
-            </p>
-        </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="choose">
-    <div class="container why-us">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 left-box">
-                <div class="vector">
-                    <h2>WHY CHOOSE ISQUARE SOFT FOR SOFTWARE DEVELOPMENT?</h2>
-                    </div>
-            </div>
-            <div class="col-lg-4 col-md-6"></div>
-            <div class="col-lg-4 col-md-6">
-                <div class="info-box right-box">
-                    <div class="d-flex col-sm-12 p-0">
-                        <p>1</p>
-                        <h5>Expertise and Experience</h5>
-                    </div>
-                    <p>Our team comprises highly skilled software engineers and developers who possess extensive experience in diverse industry verticals.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="info-box">
-                    <div class="d-flex col-sm-12 p-0">
-                        <p>2</p>
-                        <h5>Customer-Centric Approach</h5>
-                    </div>
-                    <p>We prioritize understanding your unique requirements and aligning our solutions with your business goals to deliver maximum value.</p>
-                </div>
-            </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="info-box">
-                        <div class="d-flex col-sm-12 p-0">
-                            <p>3</p>
-                            <h5>Agile Development Methodology</h5>
-                        </div>
-                        <p>We follow agile development practices to ensure transparency, flexibility, and timely delivery of your software projects.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="info-box">
-                        <div class="d-flex col-sm-12 p-0">
-                            <p>4</p>
-                            <h5>Quality Assurance</h5>
-                        </div>
-                        <p>Our robust testing procedures and quality assurance protocols guarantee that your software meets the highest standards of quality and reliability.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="info-box">
-                        <div class="d-flex col-sm-12 p-0">
-                            <p>5</p>
-                            <h5>Continuous Communication</h5>
-                        </div>
-                        <p>We maintain clear and open lines of communication throughout the development process, ensuring that you are involved and informed at every step.</p>
-                    </div>
-                </div>
-        </div>
-    </div>
-</section>
-
-    <section class="contact outer-div">
-        <div class="power-img inner-div">
+        <section class="tech-exo pb-5 text-white">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <h2>Empowering Internationally Revered<br>Enterprises with Digital Experiences.</h2>
-                        <p class="mt-5">Our mission is to expedite innovation and pave the way for a <br> brighter future by placing digital at the core of corporate strategies.</p>
-                        <a class="btn mt-3 px-4" href="./contact-us.html">CONTACT US</a>
+               <h1 class="pb-5 text-center">Why Choose Us</h1>
+                <div class="row align-center justify-content-between">
+                    <div class="col-lg-4">
+                        <img src="./images/enterprise/innvo.png" alt="image" class="img-fluid">
+                        <h2 class="p-3">Expertise</h2>
+                        <p>With a proven track record, we deliver reliable and effective solutions across various services.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./images/enterprise/Customer.png" alt="" class="img-fluid">
+                        <h2 class="p-3">Global Perspective</h2>
+                        <p>Our international experience ensures that we meet the highest standards and adapt to diverse business environments.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./images/enterprise/Proven.png" alt="" class="img-fluid">
+                        <h2 class="p-3">Client-Focused Approach</h2>
+                            <p>We prioritize your needs, providing customized solutions that drive meaningful results.
+                            </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
+
+        <section class="tech-exp">
+            <div class="container">
+                <div class="row align-items-center align-center text-white">
+                    <div class="col-lg-6">
+                        <img src="./images/enterprise/call-action.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 text-left">
+                        <h2 class="font-weight-bold pb-3">Call to Action</h2>
+                        <p class="tech-exp-p">Choose I Square Tek for comprehensive global and management services. Contact us today to discuss your requirements and learn how our solutions can benefit your business. Visit <span> <a class="moyo" href="http://www.isquaresofttek.in" target="_blank">www.isquaresofttek.in</a></span> for more information.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
     <section class="footer">
         <div class="container">
             <div class="row">
