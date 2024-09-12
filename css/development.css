@@ -288,6 +288,27 @@
         margin-bottom: 0;
         background-position: center;
     }
+.software-14{
+        background-image: url('./../images/cyber/hero.png'); 
+        background-size: cover;
+        padding:16rem 0;
+        margin-bottom: 0;
+        background-position: center;
+    }
+    .software-15{
+        background-image: url('./../images/globe-services/hero.png'); 
+        background-size: cover;
+        padding:16rem 0;
+        margin-bottom: 0;
+        background-position: center;
+    }
+    .software-16{
+        background-image: url('./../images/enterprise/hero.png'); 
+        background-size: cover;
+        padding:16rem 0;
+        margin-bottom: 0;
+        background-position: center;
+    }
 /* contact-us page */
 
 .contact-img{
@@ -512,6 +533,23 @@
 }
 .bg-04{
     background-image:  linear-gradient(to bottom,transparent 0%, #38173f 80%), url('../images/development/tech-4.png');
+    height: 21rem;
+}
+/* Cyber Services */
+.bg-11{
+    background-image:  linear-gradient(to bottom,transparent 0%, #38173f 80%), url('../images/cyber/tech-1.png');
+    height: 21rem;
+}
+.bg-22{
+    background-image:  linear-gradient(to bottom,transparent 0%, #38173f 80%), url('../images/cyber/tech-2.png');
+    height: 21rem;
+}
+.bg-33{
+    background-image:  linear-gradient(to bottom,transparent 0%, #38173f 80%), url('../images/cyber/tech-3.png');
+    height: 21rem;
+}
+.bg-44{
+    background-image:  linear-gradient(to bottom,transparent 0%, #38173f 80%), url('../images/cyber/tech-4.png');
     height: 21rem;
 }
 .bg-action{

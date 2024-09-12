@@ -20,14 +20,17 @@ body, html {
     color: #cccc;
 }
 
+.dropdown-menu{
+    background: linear-gradient(135deg, #1E1B3A, #2C1F5D, #0F0E17);
+}
 
  .nav-item .dropdown-item{
-    color: rgba(0,0,0,.5);
+    color:  white;
     padding-top: 1rem;
     padding-bottom: 1rem;
  }
  .nav-item .dropdown-item:hover{
-    color: #CCCCCC;
+    color: black;
  }
 
 .navbar-nav .nav-link {
