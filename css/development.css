@@ -280,6 +280,14 @@
         margin-bottom: 0;
         background-position: center;
     }
+    /* software testing */
+.software-13{
+        background-image: url('./../images/testing/hero.png'); 
+        background-size: cover;
+        padding:16rem 0;
+        margin-bottom: 0;
+        background-position: center;
+    }
 /* contact-us page */
 
 .contact-img{
