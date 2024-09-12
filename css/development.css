@@ -1,19 +1,6 @@
 *{
     font-family: "Montserrat", sans-serif;
 }
-.software{
-    background-image: url('./../images/development/programming.jpg'); 
-    background-size: cover;
-    padding:16rem 0;
-    margin-bottom: 0;
-}
-.driving-digital{
-    padding: 6rem 0;
-    background-image: linear-gradient(to right, rgba(105, 67, 215, 1), rgba(151, 0, 189, 1));
-    color: white;
-    text-align: left;
-    margin-bottom: 0;
-}
 @media (max-width:800px){
     .driving-digital{
         padding: 0rem 0;
@@ -279,38 +266,20 @@
 
 /* enterprise-resources page */
 .software-ll{
-    background-image: url('../images/enterprise/enterprise.jpg'); 
+    background-image: url('../images/cloud/hero.png'); 
     background-size: cover;
     padding:16rem 0;
     margin-bottom: 0;
     background-position: center;
     }
-.listing-text-1{
-    padding:2rem 0;
-    margin:0;
-    background-color: #E0EAFF;
-}
-.listing-text-1 ul li{
-    padding:1rem 0;
-    color: #3A3A3A;
-    font-size:1.3rem;
-    font-weight:normal;
-
-}
-.shift-p h2{
-    font-family: "Georama", sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-}
-.shift-p ul li{
-    padding:1rem 0;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-.shift-p .bl{
-    border-left: 1px solid #D5D5D5;
-}
-
+    /* software development */
+.software-12{
+        background-image: url('./../images/development/hero.png'); 
+        background-size: cover;
+        padding:16rem 0;
+        margin-bottom: 0;
+        background-position: center;
+    }
 /* contact-us page */
 
 .contact-img{
@@ -518,6 +487,23 @@
 }
 .bg-3{
     background-image:  linear-gradient(to bottom,transparent 0%, #38173f 80%), url('../images/enterprise/erp-3.jpg');
+    height: 21rem;
+}
+/* software development */
+.bg-01{
+    background-image:  linear-gradient(to bottom,transparent 0%, #38173f 80%), url('../images/development/tech-1.png');
+    height: 21rem;
+}
+.bg-02{
+    background-image:  linear-gradient(to bottom,transparent 0%, #38173f 80%), url('../images/development/tech-2.png');
+    height: 21rem;
+}
+.bg-03{
+    background-image:  linear-gradient(to bottom,transparent 0%, #38173f 80%), url('../images/development/tech-3.png');
+    height: 21rem;
+}
+.bg-04{
+    background-image:  linear-gradient(to bottom,transparent 0%, #38173f 80%), url('../images/development/tech-4.png');
     height: 21rem;
 }
 .bg-action{

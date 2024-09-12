@@ -140,7 +140,7 @@
 }
 @media (min-width: 513px) {
     .career .container{
-        background-image: linear-gradient(to right, rgba(105, 67, 215, 1), rgba(151, 0, 189, 1));
+         background: linear-gradient(135deg, #1E1B3A, #2C1F5D, #0F0E17);
         padding: 4rem;
     }
 }
@@ -152,14 +152,14 @@
     background-position: center;
 }
 .item-2{
-    background-image: url('../images/home/hero.png');
+    background-image: url('../images/home/hero-1.png');
     background-size: cover;
     padding:10rem 0;
     margin-bottom: 0;
     background-position: center;
 }
 .item-3{
-    background-image: url('../images/home/hero.png');
+    background-image: url('../images/home/hero-2.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding:10rem 0;
