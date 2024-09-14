@@ -20,6 +20,14 @@ body, html {
     color: #cccc;
 }
 
+.dropdown-item:active {
+    background: transparent ;
+    color: white;
+}
+.dropdown-item:active .dropdown-item:hover  {
+    color: white;
+}
+
 .dropdown-menu{
     background: linear-gradient(135deg, #1E1B3A, #2C1F5D, #0F0E17);
 }
