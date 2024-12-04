@@ -1,16 +1,47 @@
 *{
     font-family: "Montserrat", sans-serif;
 }
+.about-us a{
+    text-decoration: none;
+    border-radius: 2rem;
+    padding:0.8rem 2rem;
+    background-color: #2C1F5D;
+    color: #fff;
+}
 .about-us-p{
-    font-family: 'Poppins';font-size: 22px;
     font-size:17px;
     line-height: 33px;
+}
+.navbar-brand img{
+    width: 13rem;
 }
 .count{
     color: white;
     background-image: url("./../images/home/rect.jpg");
     background-position: center;
     background-size: cover;
+    margin-bottom:0;
+}
+.service-card:hover{
+  transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-card:hover{
+    background-color: #2C1F5D;
+    color: #fff;
+    border: none;
+}
+.service-card a{
+    background-color: #2C1F5D;
+    color: #fff;
+    padding:0.4rem 1rem;
+    border-radius: 2rem;
+}
+.service-card:hover a{
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
 }
 .service-grad{
     background-image: linear-gradient(to bottom, #7F56D9 0%, #6943D7 100%,transparent);
@@ -61,7 +92,7 @@
     border-radius: 10px;
     padding: 32px;
     background-color: #fff;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 .dividor{
     border: 1px solid #9c9b9b;
@@ -79,14 +110,6 @@
     .count .ele{
         margin-bottom: 2.2rem;
     }
-}
-.read-more{
-    box-shadow: 0px 6px 14px 0px #00216187;
-    background: linear-gradient(93.53deg, #6943D7 2.58%, #4E6FE0 121.99%);
-    border-radius: 25px;
-    float: left;
-    margin-bottom: 1.5rem;
-    color: white;
 }
 .insight .img-grad{
     border-radius:20px;
@@ -149,6 +172,7 @@
 }
 .item-1{
     background-image: url('../images/home/hero.png');
+    background-repeat: no-repeat;
     background-size: cover;
     padding:15rem 0;
     margin-bottom: 0;
@@ -156,6 +180,7 @@
 }
 .item-2{
     background-image: url('../images/home/hero-1.png');
+    background-repeat: no-repeat;
     background-size: cover;
     padding:15rem 0;
     margin-bottom: 0;
@@ -163,6 +188,14 @@
 }
 .item-3{
     background-image: url('../images/home/hero-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:15rem 0;
+    margin-bottom: 0;
+    background-position: center;
+}
+.item-4{
+    background-image: url('../images/home/hero-3.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding:15rem 0;
