@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="icon" type="image/x-icon" href="./images/faicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/resources.css">
     <link rel="stylesheet" href="./css/development.css">
@@ -74,6 +75,11 @@
                                  <span class="tooltip">Coming Soon</span>
                              </a>
                          </li>
+
+         <li class="nav-item">
+                            <a class="nav-link nav-touch" href="./career.html">Careers</a>
+                        </li>
+
  
                      </ul>
                  </div>
@@ -168,8 +174,8 @@
             <!-- Card 2 -->
             <div class="col-md-6 col-lg-4">
                 <div class="card">
-                    <h5 class="card-title">Achievements and Recognition</h5>
-                    <p class="card-text">We celebrate our team's achievements and milestones. Recognitions include awards for outstanding performance, employee of the month programs, and annual celebrations of team accomplishments.</p>
+                    <h5 class="card-title">Health and Well-being</h5>
+                    <p class="card-text">Our commitment to health and well-being includes offering health benefits, wellness programs, and a supportive work environment. We strive to create a space where employees feel safe and cared for.</p>
                 </div>
             </div>
             <!-- Card 3 -->
@@ -221,21 +227,35 @@
                     <p class="card-text">Collaboration is at the heart of our operations. We encourage cross-departmental teamwork, knowledge sharing, and collaborative problem-solving to achieve common goals and drive success.</p>
                 </div>
             </div>
-            <!-- Card 10 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card">
-                    <h5 class="card-title">Health and Well-being</h5>
-                    <p class="card-text">Our commitment to health and well-being includes offering health benefits, wellness programs, and a supportive work environment. We strive to create a space where employees feel safe and cared for.</p>
-                </div>
-            </div>
         </div>
     </div>
 </section>
 
-
+<img src="" alt="">
                     <section class="tech-exo pb-5 text-white">
                         <div class="container">
-                        <h1 class="pb-5 text-center">Achievements</h1>
+                            <h1 class="pb-5 text-center">Achievements and Recognitions</h1>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide"><img src="./images/success/1.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/2.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/3.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/4.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/5.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/6.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/7.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/8.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/9.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/10.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/11.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/12.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/13.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/14.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="./images/success/15.png" alt=""></div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                              </div>
+                        <!-- 
                             <div class="row align-center justify-content-between">
                                 <div class="col-lg-3">
                                     <img src="./images/success/img-1.png" alt="image" class="img-fluid">
@@ -256,7 +276,8 @@
                                     <img src="./images/success/img-4.png" alt="" class="img-fluid">
                                     <h2 class="pt-2">Community Impact</h2>
                                     <p>Through our CSR initiatives, we have made a positive impact on various communities, demonstrating our commitment to social responsibility</p>
-                                </div>
+                                </div> -->
+                                
                             </div>
                         </div>
                     </section>
@@ -347,7 +368,7 @@ Bengaluru, Karnataka, 560024
                     <h5 class="text-uppercase">Quick Links</h5>
                     <ul class="list-unstyled mb-0">
                         <li><a href="./about.html">About us</a></li>
-                        <li><a href="./success-stories/">Resources</a></li>
+                        <li><a href="./success.html">Resources</a></li>
                         <li><a href="./career.html">Careers</a></li>
                         <li><a href="#!">Industries</a></li>
                         <li><a href="#!">Legal</a></li>
@@ -384,5 +405,20 @@ Bengaluru, Karnataka, 560024
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+        loop:true,
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
 </body>
 </html>
