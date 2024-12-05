@@ -392,6 +392,10 @@
     margin-bottom: 0;
     padding-bottom: 4rem;
 }
+.feel-free a{
+    text-decoration: underline;
+    color: #fff;
+}
 .feel-free img{
     width:100%;
 }
